@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./assets/styles/styles.css">
 </head>
 
 <body>
@@ -14,47 +15,49 @@
         <div class="bcg__box">
             <div class="bcg__overColor"></div>
         </div>
-        <div class="information__container">
+        <div class="information__box">
             <h2>Sign UP</h2>
             <form>
                 <!-- This Box is For for Name & LastName -->
                 <div class="fullName__box">
-                    <label for="fullName">Full Name</label>
-                    <input type="text" name="fullName" id="fullName" placeholder="Name...">
+                    <label for="fullName" class="_label_">Full Name</label>
+                    <input type="text" name="fullName" id="fullName" class="inputBox" placeholder="Name...">
                 </div>
                 <!-- This Box is For for userEmail -->
                 <div class="email__box">
-                    <label for="userEmail">Email</label>
-                    <input type="text" name="userEmail" id="userEmail" placeholder="Email address...">
+                    <label for="userEmail" class="_label_">Email</label>
+                    <input type="text" name="userEmail" id="userEmail" class="inputBox" placeholder="Email address...">
                 </div>
                 <!-- This Box is For for userName -->
                 <div class="uesrName_box">
-                    <label for="userName">Username</label>
-                    <input type="text" name="userName" id="userName" placeholder="Username...">
+                    <label for="userName" class="_label_">Username</label>
+                    <input type="text" name="userName" id="userName" class="inputBox" placeholder="Username...">
                 </div>
                 <!-- This Box is For for Pass -->
                 <div class="password__box">
-                    <label for="password">PassWord</label>
-                    <input type="text" name="password" id="password" placeholder="**************">
+                    <label for="password" class="_label_">Password</label>
+                    <input type="text" name="password" id="password" class="inputBox" placeholder="**************">
                 </div>
                 <!-- This Box is For Repeat Pass -->
                 <div class="RepPass__box">
-                    <label for="RepPass">Repeat Password</label>
-                    <input type="text" name="RepPass" id="RepPass" placeholder="**************">
+                    <label for="RepPass" class="_label_">Repeat Password</label>
+                    <input type="text" name="RepPass" id="repPass" class="inputBox" placeholder="**************">
                 </div>
                 <!-- This Box is For for Terms -->
                 <div class="useTrerms">
                     <input type="checkbox" name="userTerms" id="userTerms">
-                    <label for="userTerms">I agree to the <a href="#">Terms of User</a></label>
+                    <label for="userTerms" class="label__terms">I agree to the <a href="#">Terms of User</a></label>
                 </div>
                 <!-- This Box is For for SignUp & Sign In -->
                 <div class="signUp__box">
-                    <input type="submit" value="Sign Up">
-                    <a href="#">Sign in</a>
+                    <input type="submit" value="Sign Up" class="inp_signUp">
+                    <a href="#" class="signIn_link">Sign in</a>
                 </div>
             </form>
         </div>
     </div>
+
+    <script src="./assets/scripts/script.js"></script>
 </body>
 
 </html>
